@@ -63,15 +63,19 @@ $ docker-compose up -d
 SensorStreamer is available here: https://play.google.com/store/apps/details?id=cz.honzamrazek.sensorstreamer&hl=en_US
 
 Create a connection to the server machine using tcp client setting.
-  * Connection type: TCP client
+* Connection type: TCP client
   
-  * Hostname: IP or hostname of server hosting this package
+* Hostname: IP or hostname of server hosting this package
   
-  * Port: 57175
+* Port: 57175
   
 Click "Save connection"
 
-Create a packet definition selecting everything except proximity.
+Create a packet definition:
+
+* Packet type: "JSON"
+
+* Select everything except proximity
 
 Choose "High period (200 ms)" and START.
 
