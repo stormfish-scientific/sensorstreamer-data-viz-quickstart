@@ -64,8 +64,11 @@ SensorStreamer is available here: https://play.google.com/store/apps/details?id=
 
 Create a connection to the server machine using tcp client setting.
   * Connection type: TCP client
+  
   * Hostname: IP or hostname of server hosting this package
+  
   * Port: 57175
+  
 Click "Save connection"
 
 Create a packet definition selecting everything except proximity.
