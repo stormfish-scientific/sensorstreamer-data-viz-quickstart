@@ -71,7 +71,6 @@ services:
     # network_mode: host
 
     environment:
-      - "GF_SERVER_ROOT_URL=http://demohub.stormfish.net"
       - "GF_SECURITY_ADMIN_PASSWORD=admin"
 
     volumes:
