@@ -1,10 +1,13 @@
 # SensorStreamer Data Visualization Quickstart Template
 
 By Stormfish Scientific Corporation
+
 Copyright (C) 2019 Stormfish Scientific Corporation
+
 https://www.stormfish.io
 
 Version: 1.0.0-alpha
+
 Date: 2019-June-25
 
 
