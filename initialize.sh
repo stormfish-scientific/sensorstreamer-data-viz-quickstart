@@ -3,7 +3,7 @@
 echo "Initializing environment..."
 
 docker run -ti --rm --entrypoint "/bin/bash" -u root -v "${PWD}:/mnt" \
-       grafana/grafana:6.4.2 \
+       grafana/grafana:6.2.4 \
        /mnt/initialize_grafana.sh
 
 docker run -ti --rm --entrypoint "/bin/bash" -u root -v "${PWD}:/mnt" \
